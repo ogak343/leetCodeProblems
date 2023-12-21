@@ -1,38 +1,6 @@
-import java.util.ArrayList;
-import java.util.List;
-
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println(Main.convert("PAYPALISHIRING", 3));
-    }
-    public static String convert(String s, int n) {
-        if(n==1) {
-            return s;
-        }
-
-        List<String> subs = new ArrayList<>();
-        for(int i = 0; i < n; i++) {
-            subs.add("");
-        }
-
-        for(int i = 0; i < s.length(); i++) {
-            int r = cR(i, n);
-            if(r==0) {
-                subs.set(0, subs.get(0) + s.charAt(i));
-            } else {
-                if(r<n) {
-                    subs.set(r, subs.get(r) + s.charAt(i));
-                } else {
-                    subs.set(2*n-2-r, subs.get(2*n-2-r) + s.charAt(i));
-                }
-            }
-        }
-        StringBuilder sb = new StringBuilder();
-        subs.forEach(sb::append);
-        return sb.toString();
-    }
-    public static int cR(int i, int n) {
-        return i % (2*n-2);
+        System.out.println("Hello thereg");
     }
 }
