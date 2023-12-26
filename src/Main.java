@@ -27,7 +27,5 @@ public class Main {
                 matrix[j][n - 1 - i] = var;
             }
         }
-
-        System.out.println("hello");
     }
 }
