@@ -12,7 +12,7 @@ public class MinimumPushes {
     }
 
     public static int minimumPushes(String word) {
-        Map<Character, Integer> map = new HashMap<>();
+        Map<java.lang.Character, Integer> map = new HashMap<>();
         int res = 0;
         for(int i = 0; i < word.length(); i++) {
             map.merge(word.charAt(i), 1, Integer::sum);
