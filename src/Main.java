@@ -1,10 +1,13 @@
-import problems.LongestStrictlyIncreasingOrStrictlyDecreasingSubarray;
+import problems.CheckIfArrayIsSortedAndRotated;
+
 
 public class Main {
 
     public static void main(String[] args) {
 
-        System.out.println(LongestStrictlyIncreasingOrStrictlyDecreasingSubarray.longestMonotonicSubarray(new int[]{3, 2, 1}));
+        System.out.println(CheckIfArrayIsSortedAndRotated.check(new int[]{1,3,2}));
+
     }
+
 
 }
