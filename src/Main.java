@@ -1,13 +1,12 @@
-import problems.GreatestCommonDivisorOfStrings;
-import problems.KidsWithTheGreatestNumberOfCandies;
-import problems.MergeStringsAlternately;
+import problems.ProductOfArrayExceptSelf;
+
+import java.util.Arrays;
 
 public class Main {
 
     public static void main(String[] args) {
 
-        int[] candies = new int[]{2,3,5,1,3};
-        int extraCandy = 3;
-        System.out.println(KidsWithTheGreatestNumberOfCandies.kidsWithCandies(candies, extraCandy));
+        int[] input = new int[]{1, 2, 3, 4};
+        System.out.println(Arrays.toString(ProductOfArrayExceptSelf.productExceptSelf(input)));
     }
 }
