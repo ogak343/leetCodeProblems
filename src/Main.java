@@ -1,16 +1,13 @@
-import problems.LetterTilePossibilities;
-import problems.LongestSubarrayOf1sAfterDeletingOneElement;
-import problems.MaxConsecutiveOnes3;
-import problems.MaximumAverageSubarray1;
-import problems.MaximumNumberOfVowelsInASubstringOfGivenLength;
-import problems.Permutations2;
+
+import problems.Dota2Senate;
+import problems.EqualRowAndColumnPairs;
 
 public class Main {
 
     public static void main(String[] args) {
 
-        int[] input = new int[]{0,1,1,1,0,1,1,0,1};
-        int k = 2;
-        System.out.println(LongestSubarrayOf1sAfterDeletingOneElement.longestSubarray(input));
+        int[][] input = new int[][]{{3,1,2,2},{1,4,4,5},{2,4,2,2},{2,4,2,2}};
+
+        System.out.println(Dota2Senate.predictPartyVictory("RD"));
     }
 }
