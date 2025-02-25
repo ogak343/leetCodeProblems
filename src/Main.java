@@ -1,13 +1,10 @@
-
-import problems.Dota2Senate;
-import problems.EqualRowAndColumnPairs;
+import problems.NumberOfSubArraysWithOddSum;
 
 public class Main {
 
     public static void main(String[] args) {
 
-        int[][] input = new int[][]{{3,1,2,2},{1,4,4,5},{2,4,2,2},{2,4,2,2}};
-
-        System.out.println(Dota2Senate.predictPartyVictory("RD"));
+        int[] input = new int[]{1, 3, 5};
+        System.out.println(NumberOfSubArraysWithOddSum.numOfSubArrays(input));
     }
 }
